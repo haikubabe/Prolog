@@ -1,0 +1,2 @@
+plus1(X,0,X).
+plus1(s(X),Y,s(Z)):-plus1(X,Y,Z).

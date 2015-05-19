@@ -1,0 +1,2 @@
+length1([],0).
+length1([X|Rest],S(N)):-length1(Rest,N).

@@ -1,0 +1,2 @@
+abs1(X,Y):-is_less(X,0),!,sub3(X,0,Y).
+abs1(X,X).

@@ -1,0 +1,4 @@
+rem(X,s(0),0).
+rem(X,X,0).
+rem(s(X),s(Y),s(X)):-is_less(X,Y),!.
+rem(Z,Y,Z1):-div(X,Y,Z).
